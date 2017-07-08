@@ -1,0 +1,56 @@
+"*":
+  "autocomplete-python":
+    extraPaths: "/code/apps"
+    suggestionPriority: 1
+    useKite: false
+  core:
+    autoHideMenuBar: true
+    closeDeletedFileTabs: true
+    disabledPackages: [
+      "snippets"
+    ]
+    telemetryConsent: "limited"
+    themes: [
+      "one-dark-ui"
+      "solarized-dark-syntax"
+    ]
+  editor:
+    fontSize: 12
+    lineHeight: 1.8
+    scrollPastEnd: true
+    showIndentGuide: true
+    showInvisibles: true
+    tabLength: 4
+  "exception-reporting":
+    userId: "9580cee7-cc5f-4cea-9967-9c08fd6bcd5e"
+  "fuzzy-finder": {}
+  "linter-eslint":
+    disableWhenNoEslintConfig: false
+  "linter-pycodestyle":
+    ignoreErrorCodes: [
+      "E501"
+    ]
+  "linter-ui-default":
+    panelHeight: 69.453125
+  minimap:
+    displayPluginsControls: false
+  "platformio-ide-terminal":
+    customTexts: {}
+    style:
+      animationSpeed: 0
+      theme: "solarized-dark"
+  "project-manager": {}
+  "python-yapf":
+    formatOnSave: true
+  "split-diff":
+    diffWords: true
+    ignoreWhitespace: true
+    leftEditorColor: "red"
+    rightEditorColor: "green"
+    scrollSyncType: "Vertical + Horizontal"
+  "tree-view": {}
+  welcome:
+    showOnStartup: false
+".basic.html.text":
+  editor:
+    tabLength: 2

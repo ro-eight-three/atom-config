@@ -1,0 +1,5 @@
+*
+!.gitignore
+!init.coffee
+!config.cson
+!keymap.cson
