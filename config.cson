@@ -3,7 +3,6 @@
     binComposer: "/home/rosen/bin/composer"
     gotoKey: "ctrl"
   "autocomplete-python":
-    extraPaths: "/code/apps"
     suggestionPriority: 1
     useKite: false
   core:
