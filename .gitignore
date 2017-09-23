@@ -3,8 +3,5 @@
 !init.coffee
 !config.cson
 !keymap.cson
-!/packages
-/packages/*
-!/packages/minimap
-/packages/minimap/*
-!/packages/minimap/package.json
+!packages.info
+!packages.list
