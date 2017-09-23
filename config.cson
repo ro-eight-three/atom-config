@@ -1,4 +1,7 @@
 "*":
+  "atom-autocomplete-php":
+    binComposer: "/home/rosen/bin/composer"
+    gotoKey: "ctrl"
   "autocomplete-python":
     extraPaths: "/code/apps"
     suggestionPriority: 1
@@ -8,6 +11,7 @@
     closeDeletedFileTabs: true
     disabledPackages: [
       "snippets"
+      "whitespace"
     ]
     telemetryConsent: "limited"
     themes: [
@@ -48,9 +52,13 @@
     leftEditorColor: "red"
     rightEditorColor: "green"
     scrollSyncType: "Vertical + Horizontal"
-  "tree-view": {}
+  "tree-view":
+    hideVcsIgnoredFiles: true
   welcome:
     showOnStartup: false
 ".basic.html.text":
   editor:
     tabLength: 2
+".source.ts":
+  editor:
+    autoIndentOnPaste: false

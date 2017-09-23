@@ -37,3 +37,5 @@
   'alt-cmd-s': 'ctrl-dir-scroll:scroll-down'
   'f1': 'bookmarks:toggle-bookmark'
   'f2': 'bookmarks:view-all'
+'.platform-linux atom-text-editor[data-grammar~=python]:not(.mini)':
+  'f4': 'autocomplete-python:go-to-definition'
