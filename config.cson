@@ -28,7 +28,7 @@
     userId: "9580cee7-cc5f-4cea-9967-9c08fd6bcd5e"
   "fuzzy-finder": {}
   "linter-eslint":
-    disableWhenNoEslintConfig: false
+    disableWhenNoEslintConfig: true
   "linter-pycodestyle":
     ignoreErrorCodes: [
       "E501"

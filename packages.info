@@ -1,5 +1,0 @@
-To track installed packages:
-apm list --installed --bare > ./packages.list
-
-To restore:
-apm install --packages-file ./packages.list
